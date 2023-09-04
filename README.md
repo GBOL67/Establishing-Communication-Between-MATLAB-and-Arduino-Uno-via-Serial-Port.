@@ -1,6 +1,8 @@
 # Establishing Communication Between MATLAB and Arduino Uno via Serial Port.
+
 ## OBJECTIVE.
-    The purpose of the tutorial is to write and read data to and from an Arduino board.
+ The purpose of the tutorial is to write and read data to and from an Arduino board.
+    
 ## ARDUINO CODE 
  This program listens for incoming data on the serial port, assuming that data is formatted as comma-separated values with a minimum length of 16 characters. It reads up to four integer values and prints them, each line of output representing a set of four values. This code is a basic example of how to receive and process data sent from another device over a serial connection.
 
@@ -33,7 +35,7 @@ void loop() {
       Serial.println(receivedValue[3]);
 }
 ```
-##MATLAB CODE
+## MATLAB CODE
    The provided MATLAB code establishes serial communication with an Arduino using the serialport function and sends an array of ASCII numbers to the Arduino. 
 ```
 % Open the serial port to the microcontroller

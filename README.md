@@ -1,4 +1,4 @@
-# Establishing Communication Between MATLAB and Arduino Uno via Serial Port.
+# Establishing Communication Between MATLAB and Arduino Uno via Wireless UART.
 
 ## OBJECTIVE.
  The purpose of the tutorial is to write and read data to and from an Arduino board.
